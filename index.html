@@ -8,11 +8,11 @@
 <body style='margin : 0px; overflow: hidden;'> 
 <a-scene embedded arjs> 
     <a-assets> 
-     <img id="transpImage" src="http://www.icone-png.com/png/13/13081.png"> 
+     <img id="code" src="code.png"> 
     </a-assets> 
-    <a-image width="1" height="1" src="#transpImage"></a-image> 
-    <a-marker type='pattern' url='pattern-USB.patt'>
-     <a-obj-model position="0 0 0" src="#USB-obj" mtl="#USB-mtl"></a-obj-model>   
+    <a-image width="1" height="1" src="#code"></a-image> 
+    <a-marker type='pattern' url='pattern-marker.patt'>
+     <a-obj-model position="0 0 0" src="#code" mtl="#code"></a-obj-model>   
      </a-marker>
     
     <a-marker-camera preset='hiro'></a-marker-camera> 
