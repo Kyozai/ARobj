@@ -28,7 +28,15 @@
     </a-image>
   </a-marker>  
     
-    
+    <a-assets>
+   <img id="osaka" src="osaka.png">
+  </a-assets>
+　<!-- マーカーを指定 -->
+    <a-marker preset="custom" type='pattern' url="pattern-osaka.patt">
+ 　　<!-- 画像を表示 -->
+      <a-image id="osaka" src="#osaka" position="0 0 0" rotation="-90 0 0">
+    </a-image>
+  </a-marker>  
     
     
   <a-entity camera></a-entity>
