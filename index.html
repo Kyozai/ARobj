@@ -48,8 +48,25 @@
     </a-image>
   </a-marker>  
  
+    <a-assets>
+   <img id="nagoyaAdd" src="nagoyaAdd.png">
+  </a-assets>
+　<!-- マーカーを指定 -->
+    <a-marker preset="custom" type='pattern' url="pattern-nagoya.patt">
+ 　　<!-- 画像を表示 -->
+      <a-image id="nagoyaAdd" src="#nagoyaAdd" position="0 0 0" rotation="-90 0 0">
+    </a-image>
+  </a-marker>  
  
- 
+   <a-assets>
+   <img id="osakaAdd" src="osakaAdd.png">
+  </a-assets>
+　<!-- マーカーを指定 -->
+    <a-marker preset="custom" type='pattern' url="pattern-osaka.patt">
+ 　　<!-- 画像を表示 -->
+      <a-image id="osakaAdd" src="#osakaAdd" position="0 0 0" rotation="-90 0 0">
+    </a-image>
+  </a-marker>  
     
     
   <a-entity camera></a-entity>
